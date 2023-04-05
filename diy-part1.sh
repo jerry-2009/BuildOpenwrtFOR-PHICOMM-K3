@@ -18,6 +18,6 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
-git clone https://github.com/Hill-98/luci-app-k3screenctrl.git packages/luci-app-k3screenctrl
-git clone https://github.com/Hill-98/openwrt-k3screenctrl.git packages/openwrt-k3screenctrl
-git clone https://github.com/updateing/k3screenctrl.git packages/k3screenctrl-new
+git clone https://github.com/Hill-98/luci-app-k3screenctrl.git package/luci-app-k3screenctrl
+git clone https://github.com/Hill-98/openwrt-k3screenctrl.git package/openwrt-k3screenctrl
+git clone https://github.com/updateing/k3screenctrl.git package/k3screenctrl-new
